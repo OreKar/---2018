@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+
+<head><title> ΕΚΔΡΟΜΕΣ </title>
+
+<link rel="stylesheet" type="text/css" href="mystyle.css" >
+
+
+</head>
+
+<h1 style="text-align:center; font-size:350%; color:purple"> <cite>  ΕΚΔΡΟΜΕΣ </cite> </h1>
+
+<body style="background-color:#b3ccff;">
+
+<hr style="background-color: #7979d2; height:4px"><br>
+
+<table align="left" style="font-size:25px; background-color:#ffb366">
+  <tr>
+    <td>
+    <a class="yaw" href="general.html"><strong> ΚΕΝΤΡΙΚΗ ΣΕΛΙΔΑ </strong> </td></tr>
+</table>
+ <br><br><br><br>
+
+
+
+<img style="float:right; padding-bottom: 50px;"  src="pil2.jpg" height="300px" width="400px" id="myimage" alt="pil2.jpg" >
+
+<p  style="font-size:25px; font-family:Comic Sans MS"> Εδώ μπορείτε να ενημερωθείτε καλύτερα για τους προορισμούς που προσφέρουμε,
+πατήστε πάνω στους προορισμούς για να μάθετε περισσότερα. </p>
+
+<h2 style="text-align:center; font-size:230%; color:purple"> ΠΡΟΟΡΙΣΜΟΙ </h2><br><br>
+
+<ol type="1" style="font-size:25px" >
+  <li> <a class="yaw" href="phlio.html" style="font-size:30px;text-align:right "> ΠΗΛΙΟ </a></li>
+  <li> <a class="yaw" href="ios.html" style="font-size:30px;text-align:right "> ΙΟΣ </a> </li>
+  <li> <a class="yaw" href="nau.html" style="font-size:30px;text-align:right "> ΝΑΥΠΛΙΟ </a></li>
+  <li> <a class="yaw" href="giann.html" style="font-size:30px;text-align:right "> ΓΙΑΝΝΕΝΑ </a> </li>
+</ol>
+
+
+
+<hr style="background-color: #7979d2; height:4px"> <br><br>
+
+<img style="float:left; padding-bottom: 50px;"  src="sea.jpg" height="400px" width="600px" >
+
+<img style="float:right; padding-bottom: 50px;"  src="pe.jpg" height="400px" width="600px" >
+
+
+
+
+
+
+
+
+<br><br><br><br>
+
+
+
+
+
+
+
+
+
+<script>
+function Change()
+{
+ if (document.getElementById('myimage').alt=="pil2.jpg")
+  {
+ document.getElementById('myimage').src="ios2.jpg";
+document.getElementById('myimage').alt="ios2.jpg";
+ }
+ else if (document.getElementById('myimage').alt=="ios2.jpg") {
+ document.getElementById('myimage').src="na.jpg" ;
+document.getElementById('myimage').alt="na.jpg"
+}
+
+else if (document.getElementById('myimage').alt=="na.jpg") {
+document.getElementById('myimage').src="gi.jpg" ;
+document.getElementById('myimage').alt="gi.jpg"
+}
+
+ else {
+document.getElementById('myimage').src="pil2.jpg";
+document.getElementById('myimage').alt="pil2.jpg";
+}
+}
+
+var myVar = setInterval(Change, 2000);
+</script>
+
+      </body>
+
+      </html>

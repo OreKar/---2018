@@ -1,0 +1,11 @@
+table {
+    border-collapse: collapse;
+}
+
+table, td {
+    border: 4px solid black;
+}
+
+a.yaw {
+    color: black;
+}
